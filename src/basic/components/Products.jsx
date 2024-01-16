@@ -21,7 +21,7 @@ export default function Products() {
       .finally(()=> setLoading(false))
       
     return () => {
-      console.log('🧹 깨끗하게 청소하는 일들을 합니다. 멋지죠 안멋진가');
+      console.log('🧹 깨끗하게 청소하는 일들을 합니다. 멋지죠');
     };
   }, [checked]);
 
